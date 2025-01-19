@@ -5,13 +5,13 @@ LuluEngine.objects = {}
 LuluEngine.defaultColor = {1, 1, 1, 1} -- White with full opacity
 
 -- Adds an object to the engine
-function LuluEngine:addObject(obj)
+function LuluEngine:AddObject(obj)
     table.insert(self.objects, obj)
     if obj.init then obj:init() end -- Call object's init method if it exists
 end
 
 -- Removes an object from the engine
-function LuluEngine:removeObject(obj)
+function LuluEngine:RemoveObject(obj)
     for i = #self.objects, 1, -1 do
         if self.objects[i] == obj then
             table.remove(self.objects, i)
@@ -21,7 +21,7 @@ function LuluEngine:removeObject(obj)
 end
 
 -- Clears all objects
-function LuluEngine:clearObjects()
+function LuluEngine:ClearObjects()
     self.objects = {}
 end
 
