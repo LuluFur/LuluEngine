@@ -1,4 +1,4 @@
-# LuluEngine### **LuluEngine.lua**
+# **LuluEngine.lua**
 
 **Description**:  
 LuluEngine is an abstraction layer for [LÖVE (Love2D)](https://love2d.org), designed to simplify game development and provide a structured framework for managing game objects, rendering, and common operations. Created by **Lulu (LuluFluffy)**, this lightweight engine offers tools for object lifecycle management, graphical utilities, and seamless integration with LÖVE's callbacks.
@@ -155,7 +155,7 @@ end
 ---
 
 ### **License**
-This code is free to use, modify, and distribute under the [MIT License](https://opensource.org/licenses/MIT). Proper attribution to Lulu (LuluFluffy) is appreciated. 🐾
+This code is free to use, modify, and distribute under the [MIT License](https://opensource.org/licenses/MIT). Proper attribution to Lulu (LuluFluffy / LuluFur) is appreciated. 🐾
 
 ---
 
@@ -163,4 +163,4 @@ This code is free to use, modify, and distribute under the [MIT License](https:/
 **LuluEngine v1.0**  
 Date: **2025-01-19**
 
-For questions or feedback, feel free to contact **LuluFluffy**!
+For questions or feedback, feel free to contact **LuluFluffy / LuluFur**!
